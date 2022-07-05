@@ -1,0 +1,84 @@
+body{
+    text-align: center;
+}
+
+.html_form
+{ 
+    padding: 20px; 
+    margin-left: 60px;
+    margin-right: 60px;
+}
+    
+.html_form form
+{
+    padding: 20px; 
+    width: 50vw;
+    box-shadow: 1px 1px 16px black;
+    border-radius: 30px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.html_form form h2
+{ 
+    color: rgb(5, 5, 71); 
+    font-size: 35px; 
+    font-family: verdana;
+    padding: 10px;
+}
+
+.html_form form input
+{
+    width: 90%;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-left: 2px solid rgb(92, 32, 148);
+}
+
+.html_form form input:focus
+{
+    border-left: 2px solid rgb(67, 216, 92);
+    box-shadow: 1px 1px 8px rgb(67, 216, 92);
+    border-right: 2px solid rgb(67, 216, 92);
+}
+
+.html_form form select
+{
+    width: 90%;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-left: 2px solid rgb(92, 32, 148);
+}
+
+.html_form form select:focus
+{
+    border-left: 2px solid rgb(67, 216, 92);
+    box-shadow: 1px 1px 8px rgb(67, 216, 92);
+    border-right: 2px solid rgb(67, 216, 92);
+}
+
+.html_form button
+{
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(123, 72, 158, 0.815);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font: verdana;
+    box-shadow: 1px 1px 8px rgb(22, 65, 36);
+    
+}
+
+.html_form button:focus
+{
+    border-left: 2px solid rgb(67, 216, 92);
+    box-shadow: 1px 1px 8px rgb(67, 216, 92);
+    border-right: 2px solid rgb(67, 216, 92);
+}
